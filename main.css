@@ -1,0 +1,113 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 10px;
+}
+
+header {
+  font-size: clamp(2em, 5vw, 4rem);
+  font-weight: 700;
+  color: #345B63;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p, li {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+code p {
+  background-color: #cacaca;
+  text-align: center;
+}
+
+#html li {
+  list-style-type: decimal;
+}
+
+#navbar {
+  top: 0%;
+  left: 0%;
+  width: 28em;
+  height: 100%;
+  position: fixed;
+  background-color: #345B63;
+  padding-top: 3.5rem;
+}
+
+#navbar .navbar-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#navbar .navbar-items {
+  font-size: 1.2rem;
+  padding: 1rem 0 1rem 3rem;
+  border-bottom: 1px solid #fff;
+}
+
+#navbar .navbar-items .nav-link {
+  font-family: 'Noto Serif', serif;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+#navbar .navbar-items .nav-link:hover {
+  color: black;
+  margin-left: 2rem;
+  color: black;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#navbar .navbar-title {
+  color: #fff;
+  padding-left: 3rem;
+}
+
+#main-doc {
+  margin-left: 31em;
+  font-family: 'Noto Serif', serif;
+  padding: 3.5rem 5rem;
+  text-align: justify;
+}
+
+.fas, .fab {
+  padding-right: 1rem;
+  font-size: 1.7rem;
+}
+
+@media (max-width: 800px) {
+  #navbar {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 30vh;
+    padding-top: 0;
+    padding-left: 1.5rem;
+    overflow: scroll;
+  }
+  #navbar .navbar-items {
+    padding: .3rem 0;
+  }
+  #navbar .navbar-title {
+    padding: 0;
+  }
+  #main-doc {
+    margin: 30vh .2rem 0 .2rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
